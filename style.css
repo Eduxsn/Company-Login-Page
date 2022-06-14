@@ -17,6 +17,11 @@ body {
     width: 100px;
 }
 
+.menu-and-logo > span a {
+    text-decoration: none;
+    color: #7159c1;
+}
+
 .card-login {
     display: flex;
     align-items: center;
@@ -55,11 +60,24 @@ body {
 .right-login-card > input {
     width: 100%;
     border: 1px solid #7159c1;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .right-login-card > h1 {
+    width: 100%;
+    display: inline-block;
     color: #414142;
     align-items: baseline;
+    margin: 0;
+}
+
+.right-login-card > span {
+    width: 100%;
+    font-weight: 100;
+    color: #262627ce;
+    margin-bottom: 20px;
 }
 
 .btn-login-frgpass {
@@ -79,6 +97,31 @@ body {
     width: 30%;
 }
 
+.btn-login-frgpass > p {
+    text-transform: uppercase;
+}
+
 .social-login, .social-icons {
     display: flex;
+}
+
+.social-login {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+}
+
+.social-login > .text {
+    color: rgb(119, 119, 119);
+}
+
+.social-icons {
+    width: 70%;
+    margin-left: 4vw;
+}
+
+.social-icons > p {
+    margin: 0 15px;
 }

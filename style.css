@@ -3,6 +3,7 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
+    height: 100%;
 }
 
 .menu-and-logo {
@@ -35,7 +36,7 @@ body {
 }
 
 .left-login > img {
-    width: 40vw;
+    width: 35vw;
 }
 
 .right-login {
@@ -63,7 +64,21 @@ body {
     margin: 10px;
     padding: 15px;
     box-sizing: border-box;
+    outline-color: #7159c1;
 }
+
+.right-login-card #email {
+    background: url(./Assets/mail-icon.svg) no-repeat scroll 5px 50% ;
+    background-size: 15px;
+    padding-left:30px;
+}
+
+.right-login-card #senha {
+    background: url(./Assets/key-icon.svg) no-repeat scroll 5px 50%;
+    background-size: 15px;
+    padding-left:30px;
+}
+
 
 .right-login-card > h1 {
     width: 100%;

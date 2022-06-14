@@ -67,6 +67,10 @@ body {
     outline-color: #7159c1;
 }
 
+.right-login-card > input::placeholder {
+    font-size: 14px;
+}
+
 .right-login-card #email {
     background: url(./Assets/mail-icon.svg) no-repeat scroll 5px 50% ;
     background-size: 15px;

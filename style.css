@@ -112,6 +112,12 @@ body {
     width: 30%;
 }
 
+.btn-login-frgpass > button:hover {
+    cursor: pointer;
+    background-color: #7159c1e7;
+    
+}
+
 .btn-login-frgpass > p {
     text-transform: uppercase;
 }
